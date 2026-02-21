@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+*.pyc
+__pycache__/
+
+# Environment Variables
+.env
+
+# Data
+data/raw/*
+data/processed/*
+!data/sample/.gitkeep
+*.pdf
+*.docx
+
+# Vector Database
+faiss_index/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/

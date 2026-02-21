@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+*.pyc
+__pycache__/
+.Python
+*.so
+
+# Environment Variables
+.env
+azure_config.env
+*.key
+
+# Data Files
+data/raw/*
+data/processed/*
+!data/sample/.gitkeep
+*.pdf
+*.docx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+.streamlit/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+.Trash-*
+
+# Azure
+azure.json
+*.azureauth

@@ -1,0 +1,29 @@
+# core dependencies (tested together)
+langchain==1.2.10
+langchain-core==1.2.14
+langchain-community==0.4.1
+langchain-openai==1.1.10
+langchain-text-splitters==1.1.1
+openai>=0.27.0
+
+# Vector Database
+faiss-cpu
+
+# Document Processing
+pypdf
+python-docx
+
+# UI
+streamlit
+
+# Utilities
+python-dotenv
+pydantic
+tiktoken
+
+# Logging & Monitoring
+loguru
+
+# Testing
+pytest
+reportlab
