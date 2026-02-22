@@ -1,0 +1,40 @@
+# Azure SDK
+azure-functions==1.18.0
+azure-storage-blob==12.19.0
+azure-cosmos==4.5.1
+azure-ai-formrecognizer==3.3.0
+azure-search-documents==11.4.0
+azure-identity==1.15.0
+azure-keyvault-secrets==4.7.0
+azure-monitor-opentelemetry==1.0.0
+
+# Azure OpenAI
+openai==1.12.0
+
+# FastAPI (for API endpoints)
+fastapi==0.110.0
+uvicorn==0.27.0
+pydantic==2.6.0
+pydantic-settings==2.1.0
+
+# Data processing
+python-multipart==0.0.9
+pillow==10.2.0
+PyPDF2==3.0.1
+python-magic==0.4.27
+
+# Durable Functions
+azure-functions-durable==1.2.7
+
+# Monitoring
+opencensus-ext-azure==1.1.13
+applicationinsights==0.11.10
+
+# Utilities
+python-dotenv==1.0.0
+tenacity==8.2.3
+httpx==0.26.0
+
+# Testing
+pytest==8.0.0
+reportlab==4.1.0
