@@ -1,0 +1,32 @@
+# Azure AI Agent POC Dependencies
+
+# Core Framework
+semantic-kernel>=0.9.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic-settings>=2.0.0
+
+# Azure Services
+azure-cosmos>=4.5.0
+azure-identity>=1.14.0
+azure-keyvault-secrets>=4.7.0
+
+# AI & Tools
+openai>=1.3.0
+tavily-python>=0.3.0
+sendgrid>=6.11.0
+pandas>=2.1.0
+
+# Logging & Monitoring
+loguru>=0.7.2
+opencensus-ext-azure>=1.1.9
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
+
+# Development
+black>=23.11.0
+ruff>=0.1.6
